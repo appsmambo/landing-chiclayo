@@ -1,0 +1,10 @@
+body{
+	background:rgba(243, 214, 163, .5);
+	background-image:url('../img/fondo.png');
+	background-image:url('../img/fondo.png'), linear-gradient(to right, rgba(243, 214, 163, .25), rgba(255, 255, 255, 1), rgba(243, 214, 163, .25));
+	padding-bottom:0;
+	padding-top:50px;
+}
+
+
+
