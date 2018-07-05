@@ -1,10 +1,46 @@
 body{
 	background:rgba(243, 214, 163, .5);
 	background-image:url('../img/fondo.png');
-	background-image:url('../img/fondo.png'), linear-gradient(to right, rgba(243, 214, 163, .25), rgba(255, 255, 255, 1), rgba(243, 214, 163, .25));
+	background-image:url('../img/fondo.png'), linear-gradient(to right, rgba(243, 214, 163, .25), rgba(253, 245, 213, 1), rgba(243, 214, 163, .25));
 	padding-bottom:0;
 	padding-top:50px;
 }
-
-
-
+@font-face {
+	font-family:'bikoregular';
+	src: url('../font/biko_regular-webfont.woff2') format('woff2'), url('../font/biko_regular-webfont.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'bikoblack';
+	src:url('../font/biko_black-webfont.woff2') format('woff2'), url('../font/biko_black-webfont.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+#sectionInit{
+	background-image:url('../img/fondo-seccion.png'), url('../img/esquina-superior.png');
+	background-position:center bottom, top right;
+	background-repeat:no-repeat, no-repeat, repeat;
+	-webkit-background-size:contain, auto;
+	-moz-background-size:contain, auto;
+	-o-background-size:contain, auto;
+	background-size:contain, auto;
+}
+.mensaje-sipanito{
+	background:url('../img/marco.png') no-repeat;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
+	-o-background-size:contain;
+	background-size:contain;
+	color:#009f9f;
+	font-family:'bikoregular';
+	font-size:18px;
+	line-height:26px;
+	margin-bottom:16px;
+	margin-top:16px;
+	padding:28px 87px 30px 26px;
+	text-align:justify;
+}
+.mensaje-sipanito strong{
+	font-family:'bikoblack';
+}
