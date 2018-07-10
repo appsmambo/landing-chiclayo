@@ -9,8 +9,16 @@
     <title>Hello, world!</title>
   </head>
   <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0&appId=236329123846525&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div id="fullpage">
-      <div id="sectionInit" class="section">
+      <div id="seccionInit" class="section">
         <div class="container">
           <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -20,8 +28,12 @@
                   <p class="mensaje-sipanito">
                     Hola yo <strong>soy Sipanito</strong> y estoy para <strong>enseñarte</strong> y para <strong>aprender</strong> los datos más curiosos de nuestra <strong>hermosa tierra Chiclayo</strong>.
                   </p>
-                  <p>
+                  <p class="parrafo-imagen">
                     <img src="img/hashtag.png" class="img-fluid float-right">
+                    <br><br>&nbsp;
+                  </p>
+                  <p class="parrafo-imagen">
+                    <img src="img/datos-curiosos.png" class="img-fluid mx-auto d-block">
                   </p>
                 </div>
                 <div class="col-6">
@@ -32,8 +44,54 @@
           </div>
         </div>
       </div>
-      <div id="seccion2" class="section">
-        Section 2
+      <div id="seccionDatos" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-5">
+              <p class="text-center">
+                <img src="img/datos-playa.png" class="img-fluid mx-auto d-block">
+                <br>
+                <img src="img/datos-playa-texto.png" class="img-fluid mx-auto d-block">
+              </p>
+              <div class="comentarios">
+                <div class="fb-comments" data-href="https://developers.facebook.com/" data-numposts="3" data-width="100%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 offset-lg-2">
+              <p class="text-center">
+                <img src="img/datos-gente.png" class="img-fluid mx-auto d-block">
+                <br>
+                <img src="img/datos-gente-texto.png" class="img-fluid mx-auto d-block">
+              </p>
+              <div class="comentarios">
+                <div class="fb-comments" data-href="https://developers.facebook.com/" data-numposts="3" data-width="100%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-5">
+              <p class="text-center">
+                <img src="img/datos-bosque.png" class="img-fluid mx-auto d-block">
+                <img src="img/sipanito-datos.png" class="sipanito-datos">
+                <br>
+                <img src="img/datos-bosque-texto.png" class="img-fluid mx-auto d-block">
+              </p>
+              <div class="comentarios">
+                <div class="fb-comments" data-href="https://developers.facebook.com/" data-numposts="3" data-width="100%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 offset-lg-2">
+              <p class="text-center">
+                <img src="img/datos-comida.png" class="img-fluid mx-auto d-block">
+                <br>
+                <img src="img/datos-comida-texto.png" class="img-fluid mx-auto d-block">
+              </p>
+              <div class="comentarios">
+                <div class="fb-comments" data-href="https://developers.facebook.com/" data-numposts="3" data-width="100%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Optional JavaScript -->

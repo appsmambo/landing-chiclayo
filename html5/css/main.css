@@ -17,14 +17,20 @@ body{
 	font-weight:normal;
 	font-style:normal;
 }
-#sectionInit{
-	background-image:url('../img/fondo-seccion.png'), url('../img/esquina-superior.png');
-	background-position:center bottom, top right;
-	background-repeat:no-repeat, no-repeat, repeat;
-	-webkit-background-size:contain, auto;
-	-moz-background-size:contain, auto;
-	-o-background-size:contain, auto;
-	background-size:contain, auto;
+#seccionInit{
+	background-image:url('../img/fondo-seccion.png'), url('../img/esquina-superior.png'), url('../img/escudo.png');
+	background-position:center bottom, top right, right 55%;
+	background-repeat:no-repeat, no-repeat, no-repeat;
+	-webkit-background-size:contain, auto, auto;
+	-moz-background-size:contain, auto, auto;
+	-o-background-size:contain, auto, auto;
+	background-size:contain, auto, auto;
+}
+#seccionDatos{
+	background:#faebcb;
+	background-image:url('../img/piedra-1.png'), url('../img/piedra-2.png');
+	background-position:right 25%, left 65%;
+	background-repeat:no-repeat, no-repeat;
 }
 .mensaje-sipanito{
 	background:url('../img/marco.png') no-repeat;
@@ -43,4 +49,16 @@ body{
 }
 .mensaje-sipanito strong{
 	font-family:'bikoblack';
+}
+p.parrafo-imagen{
+	overflow:hidden;
+}
+.comentarios{
+	background:#f8e2b7;
+	margin-bottom:40px
+}
+.sipanito-datos{
+	position:absolute;
+	right:-159px;
+	top:-60px;
 }
